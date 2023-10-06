@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "lab_personnummer/1.0.0": {
+        "runtime": {
+          "lab_personnummer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "lab_personnummer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

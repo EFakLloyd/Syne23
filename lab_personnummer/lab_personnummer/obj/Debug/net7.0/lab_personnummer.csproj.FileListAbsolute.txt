@@ -1,0 +1,14 @@
+C:\Users\elisa\Documents\Skola, jobb\Programmering Grund\lab_personnummer\lab_personnummer\bin\Debug\net7.0\lab_personnummer.exe
+C:\Users\elisa\Documents\Skola, jobb\Programmering Grund\lab_personnummer\lab_personnummer\bin\Debug\net7.0\lab_personnummer.deps.json
+C:\Users\elisa\Documents\Skola, jobb\Programmering Grund\lab_personnummer\lab_personnummer\bin\Debug\net7.0\lab_personnummer.runtimeconfig.json
+C:\Users\elisa\Documents\Skola, jobb\Programmering Grund\lab_personnummer\lab_personnummer\bin\Debug\net7.0\lab_personnummer.dll
+C:\Users\elisa\Documents\Skola, jobb\Programmering Grund\lab_personnummer\lab_personnummer\bin\Debug\net7.0\lab_personnummer.pdb
+C:\Users\elisa\Documents\Skola, jobb\Programmering Grund\lab_personnummer\lab_personnummer\obj\Debug\net7.0\lab_personnummer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elisa\Documents\Skola, jobb\Programmering Grund\lab_personnummer\lab_personnummer\obj\Debug\net7.0\lab_personnummer.AssemblyInfoInputs.cache
+C:\Users\elisa\Documents\Skola, jobb\Programmering Grund\lab_personnummer\lab_personnummer\obj\Debug\net7.0\lab_personnummer.AssemblyInfo.cs
+C:\Users\elisa\Documents\Skola, jobb\Programmering Grund\lab_personnummer\lab_personnummer\obj\Debug\net7.0\lab_personnummer.csproj.CoreCompileInputs.cache
+C:\Users\elisa\Documents\Skola, jobb\Programmering Grund\lab_personnummer\lab_personnummer\obj\Debug\net7.0\lab_personnummer.dll
+C:\Users\elisa\Documents\Skola, jobb\Programmering Grund\lab_personnummer\lab_personnummer\obj\Debug\net7.0\refint\lab_personnummer.dll
+C:\Users\elisa\Documents\Skola, jobb\Programmering Grund\lab_personnummer\lab_personnummer\obj\Debug\net7.0\lab_personnummer.pdb
+C:\Users\elisa\Documents\Skola, jobb\Programmering Grund\lab_personnummer\lab_personnummer\obj\Debug\net7.0\lab_personnummer.genruntimeconfig.cache
+C:\Users\elisa\Documents\Skola, jobb\Programmering Grund\lab_personnummer\lab_personnummer\obj\Debug\net7.0\ref\lab_personnummer.dll
