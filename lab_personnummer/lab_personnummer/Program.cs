@@ -9,19 +9,21 @@ class Program
     Gruppmedlem1 = Farid
     Gruppmedlem2 = Elisabeth
     */
-    static bool isValidPNR(string number)
+    static bool isValidPNR(string number, int längd)
     {
 
         int summa1=0;
         int summa2 = 0;
         int summa = 0;
         int delSumma = 0;
-        int del2summa;
         int[] j = { 2, 1, 2, 1, 2, 1, 2, 1, 2, 1 };
         int z=0;
 
-        if (number.Length == 10)
-        {
+
+
+        if (kollaLängd(number, längd)) 
+        { 
+            
             foreach (char c in number)//Plockar ut varje "char" från string
             {
                 int nummer = Convert.ToInt32(new string(c, 1));//konverterar "char" till "int"     
@@ -42,33 +44,42 @@ class Program
                     }
                     z++;
                 }
+               
             }
-
-            del2summa = summa % 10;//Om summan är jämnt delbar på 10 är personumret giltigt
-            if (del2summa == 0)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return (summa % 10==0);//Om summan är jämnt delbar på 10 är personumret giltigt
         }
-        else { return false; }
-       
+
+        return false;
+
+
+
     }
-    public static void Main(string[] args)
+    static bool kollaLängd(string number,int längd)
     {
-        Console.WriteLine("S");
-        string personnummer = "91032598761";
-        if (isValidPNR(personnummer))
+
+        return (number.Length == längd);
+        
+
+
+    }
+
+    public static void Main(string[] args)
+    {        
+        Console.WriteLine("Skriv ditt personnummer: (10 siffror");
+        int längd = 10;
+        string personnummer=Console.ReadLine();
+        //string personnummer = "91032598761";
+        if (isValidPNR(personnummer,längd))
         {
             Console.WriteLine("Giltigt nummer.");
         }
+        
         else
         {
             Console.WriteLine("Ej giltigt pnr.");
+            
         }
+        Console.ReadKey();
     }
 }
 
